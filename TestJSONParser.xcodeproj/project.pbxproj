@@ -22,6 +22,9 @@
 		F160B3721907645200EB8D8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F160B3511907645200EB8D8D /* UIKit.framework */; };
 		F160B37A1907645200EB8D8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F160B3781907645200EB8D8D /* InfoPlist.strings */; };
 		F160B37C1907645200EB8D8D /* TestJSONParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F160B37B1907645200EB8D8D /* TestJSONParserTests.m */; };
+		F160B38A1907689D00EB8D8D /* MenuObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F160B3891907689D00EB8D8D /* MenuObject.m */; };
+		F160B38D190768EA00EB8D8D /* ShopProductObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F160B38C190768EA00EB8D8D /* ShopProductObject.m */; };
+		F160B3931907693500EB8D8D /* ProductObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F160B3921907693500EB8D8D /* ProductObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		F160B3771907645200EB8D8D /* TestJSONParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestJSONParserTests-Info.plist"; sourceTree = "<group>"; };
 		F160B3791907645200EB8D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F160B37B1907645200EB8D8D /* TestJSONParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestJSONParserTests.m; sourceTree = "<group>"; };
+		F160B3881907689D00EB8D8D /* MenuObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuObject.h; sourceTree = "<group>"; };
+		F160B3891907689D00EB8D8D /* MenuObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuObject.m; sourceTree = "<group>"; };
+		F160B38B190768EA00EB8D8D /* ShopProductObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopProductObject.h; sourceTree = "<group>"; };
+		F160B38C190768EA00EB8D8D /* ShopProductObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopProductObject.m; sourceTree = "<group>"; };
+		F160B3911907693500EB8D8D /* ProductObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductObject.h; sourceTree = "<group>"; };
+		F160B3921907693500EB8D8D /* ProductObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +131,12 @@
 				F160B3661907645200EB8D8D /* ViewController.m */,
 				F160B3681907645200EB8D8D /* Images.xcassets */,
 				F160B3541907645200EB8D8D /* Supporting Files */,
+				F160B38B190768EA00EB8D8D /* ShopProductObject.h */,
+				F160B3911907693500EB8D8D /* ProductObject.h */,
+				F160B3921907693500EB8D8D /* ProductObject.m */,
+				F160B38C190768EA00EB8D8D /* ShopProductObject.m */,
+				F160B3881907689D00EB8D8D /* MenuObject.h */,
+				F160B3891907689D00EB8D8D /* MenuObject.m */,
 			);
 			path = TestJSONParser;
 			sourceTree = "<group>";
@@ -254,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F160B3671907645200EB8D8D /* ViewController.m in Sources */,
+				F160B38A1907689D00EB8D8D /* MenuObject.m in Sources */,
+				F160B38D190768EA00EB8D8D /* ShopProductObject.m in Sources */,
 				F160B35E1907645200EB8D8D /* AppDelegate.m in Sources */,
+				F160B3931907693500EB8D8D /* ProductObject.m in Sources */,
 				F160B35A1907645200EB8D8D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
